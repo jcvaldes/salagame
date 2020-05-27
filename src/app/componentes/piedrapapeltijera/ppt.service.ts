@@ -5,11 +5,11 @@ import { UserService } from '../../servicios/user.service';
 @Injectable({
   providedIn: 'root'
 })
-export class TatetiService {
+export class PptService {
   constructor(public _userService: UserService) {}
   saveGame(puntos: number) {
     const game: Game = {
-      nombre: 'Tateti',
+      nombre: 'Piedra Papel Tijera',
       cantidadPuntos: puntos,
       hora: new Date(),
       jugador: this._userService.user.username,
