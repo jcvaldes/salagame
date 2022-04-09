@@ -34,7 +34,7 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
-    "moment": "2.25.3",
+    "moment": "2.29.2",
     "ngx-bootstrap": "^5.5.0",
     "ngx-mat-select-search": "2.2.0",
     "ngx-material-file-input": "2.1.1",
